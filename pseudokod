@@ -1,3 +1,6 @@
 Skapa en generator som generar ett slumptal mellan 1 och 100
 Sen frågar programmet om ett tal och då skriver du in ett tal 
 Om det talet du skriver in är för lågt kommer programmet säga det till dig och då får du skriva in ett nytt tal 
+Om talet du skrev in är för högt då kommer programmet säga till att talet är för högt och du får skriva ett nytt
+När du väl skriver rätt så kommer programmet säga till dig att du gissade rätt
+Det kommer sedan också skriva hur många gissningar det tog för dig 
