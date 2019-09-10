@@ -1,0 +1,3 @@
+Skapa en generator som generar ett slumptal mellan 1 och 100
+Sen frågar programmet om ett tal och då skriver du in ett tal 
+Om det talet du skriver in är för lågt kommer programmet säga det till dig och då får du skriva in ett nytt tal 
