@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Inlämningsuppgift1
 {
@@ -7,20 +7,20 @@ namespace Inlämningsuppgift1
         static void Main(string[] args)
         {
             Random generator = new Random();
-            int randomNumber = generator.Next(1, 100);
-            int number = 0;
-            int i = 0;
-            while (number != randomNumber)
+            int randomNummer = generator.Next(1, 100);
+            int nummer = 0;
+            int f = 0;
+            while (nummer != randomNummer)
             {
                 Console.WriteLine("Skriv ett tal mellan 1 till 100: ");
-                number = int.Parse(Console.ReadLine());
-                i++;
-                if (number > randomNumber)
-                    Console.WriteLine($"{number} är för högt");
-                else if (number < randomNumber)
-                    Console.WriteLine($"{number} är för lågt");
+                nummer = int.Parse(Console.ReadLine());
+                f++;
+                if (nummer > randomNummer)
+                    Console.WriteLine($"{nummer} är för högt");
+                else if (nummer < randomNummer)
+                    Console.WriteLine($"{nummer} är för lågt");
                 else
-                    Console.WriteLine($"Du gissade rätt, talet var {randomNumber}. Det tog {i} försök!");
+                    Console.WriteLine($"Du gissade rätt, talet var {randomNummer}. Det tog {f} försök!");
             }
         }
     }
